@@ -1,11 +1,11 @@
 ```mermaid
 flowchart TD
-    A[Inicio] --> B[Crear Ejercicio1]
-    B --> C[Inicializar adyasencia = new HashMap<>]
-    C --> D[agregarVertice: A, B, C, D, E]
-    D --> E[agregarArista: A→B, A→C, B→D, C→D, D→E]
-    E --> F[mostrarGrafo]
-    F --> G[Para cada vértice en adyasencia]
-    G --> H[Imprimir "vértice -> lista_adyacencia"]
+    A[Inicio] --> B[Constructor]
+    B --> C[Inicializar mapa]
+    C --> D[Agregar 5 vértices]
+    D --> E[Agregar 5 aristas]
+    E --> F[Mostrar grafo]
+    F --> G[Recorrer vértices]
+    G --> H[Imprimir datos]
     H --> G
     G --> I[Fin]
